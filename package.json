@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "lodash": "^4.17.21",
     "vue": "^3.2.13"
   },
   "devDependencies": {
@@ -21,8 +22,7 @@
     "eslint": "^7.32.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-promise": "^5.1.0"
   },
   "eslintConfig": {
     "root": true,
@@ -31,6 +31,7 @@
     },
     "extends": [
       "plugin:vue/vue3-essential",
+      "plugin:prettier/recommended",
       "@vue/standard"
     ],
     "parserOptions": {
